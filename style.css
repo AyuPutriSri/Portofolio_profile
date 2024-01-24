@@ -1,0 +1,50 @@
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  background-color: lightpink;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#profile {
+  width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+#content h1 {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lightpink;
+  text-align: center;
+}
+
+#content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 80%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #fff;
+}
+span {
+  color: blue;
+}
